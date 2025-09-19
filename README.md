@@ -20,15 +20,15 @@ Ce projet est une simple page web de boutique de desserts qui affiche différent
 ## Structure du projet
 
 ```
-/Dessert Shop
+/Product-list-with-cart
 │
-├── assets/              # Dossier contenant le dossier de design et screenshot
+├── assets/              # Dossier contenant le dossier de design et captures d’écran
 │
-├── Projet/             # Dossier contenant les fichiers du projet
-│   ├── index.html      # Page HTML principale
-│   ├── style.css       # Feuille de style pour la mise en page
-│   ├── script.js       # Logique JavaScript
-│   ├── images/         # Images des produits et icônes du panier
+├── Projet/             # Code source
+│   ├── index.html      # Page d’accueil / structure principale
+│   ├── style.css       # Styles de la page
+│   ├── script.js       # Logique JavaScript (panier, interactivité)
+│   ├── images/         # Images des desserts et icônes du panier
 │
 └── README.md           # Documentation
 ```
@@ -37,13 +37,17 @@ Ce projet est une simple page web de boutique de desserts qui affiche différent
 
 Pour exécuter ce projet localement :
 
-Clonez le dépôt :
-
+1.Clonez le dépôt :
+ ```bash
 git clone https://github.com/Fatima-Zohra-Jaber/Product-list-with-cart
+  ```
 
-Accédez au dossier du projet :
+2. Placez-vous dans le dossier du projet :
+ ```bash
+cd Product-list-with-cart/projet
+  ```
 
-Ouvrez le fichier index.html dans votre navigateur pour voir la page web.
+3. Ouvrez index.html dans votre navigateur.
 
 ## Captures d’écran
 

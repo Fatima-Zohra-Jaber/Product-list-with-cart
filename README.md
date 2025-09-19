@@ -1,26 +1,51 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3sJupFTN)
-# Liste de produits avec panier 🛒
+# Dessert Shop — Votre boutique 🛒
 
-## Le défi
+![Dessert Shop](assets/screenshot1.png)
+Ce projet est une simple page web de boutique de desserts qui affiche différents produits sucrés et permet aux utilisateurs d’ajouter des articles au panier. Le site est construit avec HTML, CSS et JavaScript. Il présente plusieurs desserts avec description, prix, et une option pour ajouter les articles au panier.
 
-Votre défi est de créer une liste de produits incluant un panier fonctionnel et de la rendre aussi proche du design que possible. Vous pouvez consulter le design dans le dossier `/design`.
-
-**BONUS:** Nous vous fournissons les données des produits dans un fichier local `data.json`. Vous pouvez donc utiliser ce fichier pour générer l'interface utilisateur dynamiquement si vous le souhaitez.
-
-Les utilisateurs doivent pouvoir :
+# Fonctionnalités
 
 - Ajouter et retirer des articles dans le panier
 - Augmenter/diminuer le nombre d'articles dans le panier
 - Voir une fenêtre de confirmation de commande lorsqu'ils cliquent sur "Confirmer la commande"
 - Réinitialiser leurs sélections lorsqu'ils cliquent sur "Commencer une nouvelle commande"
 
-## Assets
+# Technologies utilisées
 
-Tous les éléments nécessaires pour ce projet se trouvent dans le dossier `/assets`. Les images sont déjà exportées aux tailles d'écran correctes et optimisées.
+- HTML5 : pour structurer la page web.
+- CSS3 : pour le style, la mise en page, les polices, et la présentation des produits.
+- JavaScript : pour ajouter de l’interactivité, notamment la fonctionnalité « Ajouter au panier ».
 
-Nous incluons également des fichiers de polices variables et statiques pour les polices requises pour ce projet. Vous pouvez choisir de lier à Google Fonts ou d'utiliser les fichiers de polices locaux pour héberger les polices vous-même. Notez que nous avons supprimé les fichiers de polices statiques pour les poids de police qui ne sont pas nécessaires pour ce projet.
+# Structure du projet
 
-Il y a également un fichier `style-guide.md` contenant les informations dont vous aurez besoin, telles que la palette de couleurs et les polices.
+```
+/Dessert Shop
+│
+├── design/              # Dossier contenant les fichiers de design
+│
+├── Projet/             # Dossier contenant les fichiers du projet
+│   ├── index.html      # Page HTML principale
+│   ├── style.css       # Feuille de style pour la mise en page
+│   ├── script.js       # Logique JavaScript
+│   ├── images/         # Images des produits et icônes du panier
+│
+└── README.md           # Documentation
+```
 
+# Installation et utilisation
 
-**Amusez-vous en construisant!** 🚀
+Pour exécuter ce projet localement :
+
+Clonez le dépôt :
+
+git clone https://github.com/Fatima-Zohra-Jaber/Product-list-with-cart
+
+Accédez au dossier du projet :
+
+Ouvrez le fichier index.html dans votre navigateur pour voir la page web.
+
+# Captures d’écran
+
+Voici un aperçu de la façon dont les produits sont présentés sur la page web :
+
+![Confirmation de la commande](assets/screenshot2.png)
